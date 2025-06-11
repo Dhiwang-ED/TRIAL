@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Situs Edukasi Interaktif</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Logo" class="logo"/>
+    <h1>Situs Edukasi Interaktif</h1>
+  </header>
+
+  <main>
+    <section class="quiz-section">
+      <h2>Latihan Soal Matematika</h2>
+      <div id="question"></div>
+      <input type="text" id="answer" placeholder="Jawaban kamu..." />
+      <button onclick="checkAnswer()">Cek Jawaban</button>
+      <p id="feedback"></p>
+      <button onclick="generateQuestion()">Soal Baru</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Situs Edukasi. Dibuat untuk pembelajaran.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
